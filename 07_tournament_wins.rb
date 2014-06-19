@@ -8,3 +8,12 @@ wins = {
     wimbledon: ["1976", "1977", "1978", "1979", "1980"]
   }
 }
+
+
+
+BJORN_BORG["tournament_wins"] = ["1976", "1977", "1978", "1979", "1980"]
+
+print "Bjorn won his first wimbledon championship in #{BJORN_BORG["tournament_wins"][0]}. "
+
+print "Bjorn won his last wimbledon championship in #{BJORN_BORG["tournament_wins"][3]}."
+
